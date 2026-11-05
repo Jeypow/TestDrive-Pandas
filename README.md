@@ -7,7 +7,7 @@ Arquivo base do laboratório: [Lab_ETL_Pratica_Costa_dos_Coqueiros 1 (1).pdf](ht
 
 ---
 
-## 🤖 Uso de Inteligência Artificial no Projeto
+## Uso de Inteligência Artificial no Projeto
 
 > **Nota de Transparência e Desenvolvimento:**  
 > Durante o diagnóstico preliminar das bases de dados brutas, **foi utilizada a assistência de Inteligência Artificial (IA)** como suporte analítico. A IA foi fundamental para **descobrir e evidenciar que os dados recebidos das APIs públicas estavam completamente heterogêneos e fora de padrão, exigindo um rigoroso processo de normalização e padronização**:
@@ -19,7 +19,7 @@ Arquivo base do laboratório: [Lab_ETL_Pratica_Costa_dos_Coqueiros 1 (1).pdf](ht
 
 ---
 
-## 🏗️ Arquitetura do Pipeline ETL
+## Arquitetura do Pipeline ETL
 
 O fluxo de dados foi construído seguindo as melhores práticas de Engenharia de Dados:
 
@@ -47,7 +47,7 @@ O fluxo de dados foi construído seguindo as melhores práticas de Engenharia de
 
 ---
 
-## 📁 Estrutura de Pastas e Arquivos
+## Estrutura de Pastas e Arquivos
 
 * **`lab_etl/lab_etl.py`**: Script principal contendo todas as funções de extração, staging, transformação, validação de qualidade, carga e consultas analíticas.
 * **`lab_etl/lab_etl.db`**: Banco de dados relacional SQLite populado com as tabelas de staging, dimensões, fatos e controle.
@@ -57,7 +57,7 @@ O fluxo de dados foi construído seguindo as melhores práticas de Engenharia de
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 Certifique-se de ter o Python 3 instalado no seu ambiente. Instale as bibliotecas necessárias:
@@ -87,7 +87,7 @@ python -c "import sqlite3; from lab_etl.lab_etl import responder_perguntas_diret
 
 ---
 
-## 📊 Principais Descobertas de Negócio (Respondendo ao Diretor)
+##  Principais Descobertas de Negócio (Respondendo ao Diretor)
 
 * **P1 (Chuva forte por mês):** Foram registrados apenas 2 dias de chuva forte ($\ge 20\text{ mm}$) em Aracaju no período: um dia em março (26,8 mm) e um em abril (33,6 mm).
 * **P2 (Tempo nos feriados):** A grande maioria dos feriados nacionais teve tempo estável com chuva fraca e temperaturas de até 30°C. O único feriado com chuva forte foi Tiradentes (21/04).
